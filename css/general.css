@@ -1,0 +1,160 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font: normal 100%/1.5 sans-serif;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+h1 {
+	margin: 0;
+}
+
+/* - - - - - - - - - - - - - - - - header - - - - - - - - - - - - - - - - */
+header {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+.logo {
+	width: 60px;
+	margin: 0.5em 0.5em 0 0.5em;
+	position: absolute;
+}
+
+.banner {
+	width: 100%;	
+}
+
+/* - - - - - - - - - - - - - - - - about - - - - - - - - - - - - - - - - */
+.about {
+	margin: 0;
+	padding: 1em;
+	background-color: #FFFFFF;
+}
+
+.about p {
+	margin: 0;
+	color: #333333;
+}
+
+/* - - - - - - - - - - - - - - - - about - - - - - - - - - - - - - - - - */
+
+h2 {
+	margin: 0;
+}
+
+.whatido {
+	margin: 0;
+	padding: 1em;
+	background-color: #333333;
+}
+
+.whatido h2, p {
+	margin: 0;
+	color: #FFFFFF;
+}
+
+/* - - - - - - - - - - - - - - - - footer - - - - - - - - - - - - - - - - */
+
+.footer {
+	height: 15em;
+	background-color: #000000;
+}
+
+.footer p {
+	margin: 0;
+	padding: 1em;
+	color: #FFFFFF;
+}
+
+/* - - - - - - - - - - - under construction - - - - - - - - - - - - - - */
+
+html {
+	margin: 0;
+	padding: 0;
+	top: 0;
+
+	background-color: #333333;
+}
+
+/*.bg-img {
+	width: 100%;
+	position: absolute;
+}*/
+
+.middle {
+	/*margin: 50% 0;*/
+}
+
+.rectangle {
+	/*margin: 0.75em;*/
+	position: absolute;
+	top: 25%;
+    border-radius: 2px;
+    display: block;
+    height: 60px;
+    width: 235px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.textbox {
+	margin: 0 5%;
+}
+
+.textbox h1{
+	margin: 0;
+	font: normal 145%/1.5 sans-serif;
+	font-weight: lighter;
+	color: #FFFFFF;
+	top: 25%;
+	padding: 0.5em 0.75em;
+	position: absolute;
+}
+
+.construct {
+	font: normal 100%/1.5 sans-serif;
+	color: #66CCCC;
+	top: 40%;
+	margin: 0 5%;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
