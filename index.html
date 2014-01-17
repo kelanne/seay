@@ -8,43 +8,68 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
 </head>
 <body id="top">
-	<nav>
+	<header class="masthead clearfix">
+	<div class="masthead-top">
+		<h1 class="logo-wrapper"><a href="index.html" class="logo">Kelly Seay</a></h1>
+		<a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+	</div>
+	<nav class="nav nav-top" data-state="collapsed">
 	  <ul>
 	    <li><a href="#">Home</a></li>
-	    <li><a href="#">About</a></li>
-	    <li><a href="#">Work</a></li>
-	    <li><a href="#">Contact</a></li>
+	    <li><a href="#about">About</a></li>
+	    <li><a href="#whatido">What I Do</a></li>
+	    <li><a href="#contact">Contact</a></li>
 	  </ul>
 	</nav>
-
-	<header class="header">
-		<img src="img/k-logo-simple.svg" class="logo" alt="logo">
-		<img src="http://placekitten.com/g/1300/900" class="banner" alt="placeholder">
 	</header>
 
-	<article class="about">
-		<h1>Hello purr.</h1>
+	<div>
+		<img src="http://placekitten.com/g/1300/900" class="banner" alt="placeholder">
+	</div>
+
+	<article class="about" id="about">
+		<h2>Hello purr.</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
 	</article>
 
-	<article class="whatido">
+	<article class="whatido" id="whatido">
 		<h2>What I do</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+
+	</article>
+
+	<article class="contact" id="contact">
+		<h2>Contact</h2>
+		<p>let's chat</p>
+			<ul>
+				<li>kellyseayy@gmail.com</li>
+				<li>+16136781552</li>
+			</ul>
 			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
+				
 			</div>
 	</article>
 
-	<footer class="footer">
-		<p>contact</p>
+	<footer class="site-footer">
+		<nav id="nav" class="nav nav-bottom">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#whatido">What I do</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<p class="top-link"><a href="#top">Top</a></p>
+		<p class="copyright">© 2014 Kelly Seay</p>	
 	</footer>
 
 	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-	<script src="js/general.js"></script>
+	<script src="js/footer-toggle-hybrid.js"></script>
 </body>
 </html>
